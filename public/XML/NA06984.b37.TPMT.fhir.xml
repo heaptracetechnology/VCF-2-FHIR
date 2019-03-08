@@ -1,0 +1,6010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="dr-5c7f7b581406c"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/diagnosticreport"/>
+  </meta>
+  <contained>
+    <Observation>
+      <id value="rs-5c7f7b5814007"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-region-studied"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-RegionsStudied"/>
+          <display value="Region studied"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48018-6"/>
+            <display value="Gene studied ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.genenames.org"/>
+            <code value="HGNC:12014"/>
+            <display value="TPMT"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58140a6"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18128659"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814134"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18128999"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58141b2"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18131464"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b581422c"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18132822"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58142a6"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18133256"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814320"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6706-1"/>
+            <display value="heterozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="AC"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="AAA"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18134020"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b581439a"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="CA"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18134692"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814413"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18135178"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b581448c"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18135683"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814506"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18135816"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814580"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18135993"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58145fa"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18137036"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814673"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="GT"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18137357"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58146ed"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18137714"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814766"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="GAC"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18137926"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58147df"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18138238"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814859"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6706-1"/>
+            <display value="heterozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="GT"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18138495"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58148ec"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18138552"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814967"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18138827"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58149e0"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18139214"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814a59"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18140175"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814ad3"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18140250"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814b4c"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18140732"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814bc5"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18141330"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814c3f"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18142289"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814cb8"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18142308"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814d32"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18142422"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814dac"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18142970"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814e25"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18143769"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814e9e"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18144959"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814f18"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6706-1"/>
+            <display value="heterozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18145184"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5814f91"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18145372"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b581500b"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18147186"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5815085"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18147780"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58150fe"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18148019"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5815177"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18148247"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58151f1"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18148513"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b581526a"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18149526"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58152e3"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6706-1"/>
+            <display value="heterozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18149668"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b581535d"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18150514"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58153d6"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6706-1"/>
+            <display value="heterozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="TTT"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="TT"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18151416"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5815450"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="G"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18153029"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58154c9"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18153330"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b5815543"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="A"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18154515"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="dv-5c7f7b58155bd"/>
+      <meta>
+        <profile value="http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/obs-described-variant"/>
+      </meta>
+      <status value="final"/>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+          <code value="laboratory"/>
+        </coding>
+      </category>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="TBD-Described"/>
+          <display value="Genetic variant assessment"/>
+        </coding>
+      </code>
+      <subject>
+        <reference value="Patient/NA06984"/>
+      </subject>
+      <issued value="2019-03-06T07:48:40+00:00"/>
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="LA9633-4"/>
+          <display value="Present"/>
+        </coding>
+      </valueCodeableConcept>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="62374-4"/>
+            <display value="Human reference sequence assembly version"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA14029-5"/>
+            <display value="GRCh37"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="48013-7"/>
+            <display value="Genomic reference sequence ID"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://www.ncbi.nlm.nih.gov/nuccore"/>
+            <code value="NC_000006.11"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="53034-5"/>
+            <display value="Allelic state"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA6705-3"/>
+            <display value="homozygous"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69547-8"/>
+            <display value="Genomic Ref allele"/>
+          </coding>
+        </code>
+        <valueString value="C"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="69551-0"/>
+            <display value="Genomic Alt allele"/>
+          </coding>
+        </code>
+        <valueString value="T"/>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="tbd-coordinate system"/>
+            <display value="Genomic coordinate system"/>
+          </coding>
+        </code>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genetic-coordinate-system"/>
+            <code value="1"/>
+          </coding>
+        </valueCodeableConcept>
+      </component>
+      <component>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="81254-5"/>
+            <display value="Genomic Allele start-end"/>
+          </coding>
+        </code>
+        <valueRange>
+          <low>
+            <value value="18154895"/>
+          </low>
+        </valueRange>
+      </component>
+    </Observation>
+  </contained>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="51969-4"/>
+    </coding>
+    <text value="Genetic analysis report"/>
+  </code>
+  <subject>
+    <reference value="Patient/NA06984"/>
+  </subject>
+  <result>
+    <reference value="#rs-5c7f7b5814007"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58140a6"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814134"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58141b2"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b581422c"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58142a6"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814320"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b581439a"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814413"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b581448c"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814506"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814580"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58145fa"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814673"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58146ed"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814766"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58147df"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814859"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58148ec"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814967"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58149e0"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814a59"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814ad3"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814b4c"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814bc5"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814c3f"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814cb8"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814d32"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814dac"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814e25"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814e9e"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814f18"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5814f91"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b581500b"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5815085"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58150fe"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5815177"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58151f1"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b581526a"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58152e3"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b581535d"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58153d6"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5815450"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58154c9"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b5815543"/>
+  </result>
+  <result>
+    <reference value="#dv-5c7f7b58155bd"/>
+  </result>
+</DiagnosticReport>
