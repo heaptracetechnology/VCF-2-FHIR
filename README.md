@@ -19,7 +19,8 @@ Implementation of said API is via an ‘On-demand FHIR Translator’. In this mo
 
 We provide the VCF-to-FHIR converter here. Software is available for use under an [Apache 2.0 license](https://opensource.org/licenses/Apache-2.0), and is intended solely for experimental use, to help further Genomics-EHR integration exploration. Software is expressly not ready to be used with identifiable patient data or in delivering care to patients. Code issues should be tracked here. Comments and questions can also be directed to [info@elimu.io](mailto:info@elimu.io).
 
-We currently translate simple variants, along with zygosity and phase relationships. We are working on enhancing the conversion to accommodate structural variants, but do not yet have a slated date for when that code will be available.
+### VCF-to-FHIR Conversion
+A detailed description of the conversion algorithm is below. We currently translate simple variants, along with zygosity and phase relationships. We are working on enhancing the conversion to accommodate structural variants, but do not yet have a slated date for when that code will be available. We also anticipate a code update later this year once January 2019 ballot comments against the FHIR Genomics guide have been resolved and applied.
 
 We tested the algorithm against 17 anonymized VCF files obtained from the [1000 Genomes project](https://www.nature.com/articles/nature15393). From each file, we simulated real-time extraction of gene-specific variants using bcftools, creating 3 gene-specific (TPMT, CYP2C19, CYP2D6) VCF files for each of 17 patients, for a total of 51 VCF files. Each of these files was then translated, via the VCF-to-FHIR converter, into a corresponding FHIR Genomics report. Source VCF files, along with corresponding FHIR Genomics reports (in XML and JSON) can be found in the 'public' folder on this site. 
 
@@ -30,8 +31,6 @@ In the full incarnation of the on-demand translator, the VCF-to-FHIR converter w
 #### Create FHIR diagnostic report
 
 Create a FHIR Diagnostic Report containing exactly 1 FHIR region studied profile, 0..* FHIR described variant profiles, and 0..* FHIR sequence phase relationship profiles. The region studied profile reflects back the gene queried for, with an indication of whether or not any variants were found. There is one described variant profile for each non-filtered row in the VCF. Where the VCF includes phasing information, each pairwise relationship is reflected in a FHIR sequence phase relationship profile.
-
-  
 
 -   Diagnostic Report
     - Contained
