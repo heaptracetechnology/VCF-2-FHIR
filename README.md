@@ -26,7 +26,7 @@ We tested the algorithm against 17 anonymized VCF files obtained from the [1000 
 
 #### Extract parameters from filename
 
-In the full incarnation of the on-demand translator, the VCF-to-FHIR converter will obtain patientID and build from the server, and gene from the query. For the stand-alone VCF-to-FHIR converter, patient ID, build, and gene need to be supplied in the file name. Patient ID can be any string without whitespace. Build must be one of ‘b36’ (aka NCBI Build 36, hg18), ‘b37’ (aka GRCh37, hg19), or ‘b38’ (aka GRCh38, hg38). Gene must be a valid [HGNC gene symbol](https://www.genenames.org/). Filename must be formatted as: [patientId].[b36|b37|b38].[HGNC gene symbol].<anything>.vcf (e.g. ‘NA120003.b37.CYP2D6.vcf’).
+In the full incarnation of the on-demand translator, the VCF-to-FHIR converter will obtain patientID and build from the server, and gene from the query. For the stand-alone VCF-to-FHIR converter, patient ID, build, and gene need to be supplied in the file name. Patient ID can be any string without whitespace. Build must be one of ‘b36’ (aka NCBI Build 36, hg18), ‘b37’ (aka GRCh37, hg19), or ‘b38’ (aka GRCh38, hg38). Gene must be a valid [HGNC gene symbol](https://www.genenames.org/). Filename must be formatted as: [patientId].[b36|b37|b38].[HGNC gene symbol].(anything).vcf (e.g. ‘NA120003.b37.CYP2D6.vcf’).
 
 #### Create FHIR diagnostic report
 
