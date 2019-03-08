@@ -8,12 +8,12 @@ VCF-2-FHIR conversion is a component of a broader project, a [FHIR](https://www.
   
 
 ![](https://lh5.googleusercontent.com/lfwQpgBaqKfuAotrYwKdCd7YNcMo9S2HRAgnNSnHmXfRnv5jFDhwHZi3vGFYSfQEnA4ttVJXFOHlx_9cE2cwchOSguVugASdiTgbKpkz_dE--R-Wl4gKIZ8_ZpLB4leUpMJRPd0x)
+
 In this design, GACS stores raw genomics files ([FASTQ](https://github.com/samtools/hts-specs/), [SAM](https://github.com/samtools/hts-specs/), [VCF](https://github.com/samtools/hts-specs/), [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1), etc) generated from next-generation sequencing. Our draft GACS FHIR API has a gene as the query parameter, and returns variants, variant zygosity (e.g.heterozygous, homozygous), and phase relationships (e.g. whether two heterozygous variants are on the same or homologous chromosomes) found within that gene; or an indication that the gene hasn’t been studied. Results are formatted as a FHIR Diagnostic Report conforming to the January 2019 balloted [FHIR Genomics guide](http://www.hl7.org/fhir/uv/genomics-reporting/2019Jan/index.html). Ultimately, we plan to submit the GACS FHIR API specification to HL7 for community review and balloting.
 
   
 
-Implementation of said API is via an ‘On-demand FHIR Translator’. In this model, GACS first determines if any data is on file for the requested gene by searching an index automatically generated from SAM files. Where the gene has been sequenced, GACS performs  
-real-time extraction of variants from VCF and feeds them to a VCF-to-FHIR converter, which performs real-time conversion into corresponding FHIR objects within the FHIR Diagnostic Report to be returned, as illustrated in the following figure.
+Implementation of said API is via an ‘On-demand FHIR Translator’. In this model, GACS first determines if any data is on file for the requested gene by searching an index automatically generated from SAM files. Where the gene has been sequenced, GACS performs real-time extraction of variants from VCF and feeds them to a VCF-to-FHIR converter, which performs real-time conversion into corresponding FHIR objects within the FHIR Diagnostic Report to be returned, as illustrated in the following figure.
 
 ![](https://lh6.googleusercontent.com/2oyJZ681JihIv0mm90OafEGQLUkx72h5KTuRof7dWfM5eEnzefs5Y3JxA2chnufVrGdWMqQE7fxRS4OMTsRevU7DbAvErSH38Qpz7o4M_UG3c9-7PyWlL7HlGK3kgI0LkU9InLpI)
 
