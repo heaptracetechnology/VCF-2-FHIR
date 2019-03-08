@@ -79,8 +79,6 @@ Go row by row through the VCF, converting each VCF row into an instance of descr
 
 #### Create 0..* FHIR sequence-phase-relationship profiles
 
--   Where FORMAT.GT contains a dot (‘.’), substitute a zero (‘0’).
-    
 -   Identify rows where FORMAT.PS is numeric, where FORMAT.GT contains “|”, and where FORMAT.GT is x|y (e.g. 0|1 or 1|0)
      - Order rows by FORMAT.PS, by POS
      - Where > 1 row have same FORMAT.PS
