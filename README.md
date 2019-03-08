@@ -19,9 +19,9 @@ Implementation of said API is via an ‘On-demand FHIR Translator’. In this mo
 
 We provide the VCF-to-FHIR converter here. Software is available for use under an [Apache 2.0 license](https://opensource.org/licenses/Apache-2.0), and is intended solely for experimental use, to help further Genomics-EHR integration exploration. Software is expressly not ready to be used with identifiable patient data or in delivering care to patients. Code issues should be tracked here. Comments and questions can also be directed to [info@elimu.io](mailto:info@elimu.io).
 
-We currently translate simple variants, along with zygosity and phase relationships. We are currently working on enhancing the conversion to accommodate structural variants, but do not yet have a slated date for when that code will be available.
+We currently translate simple variants, along with zygosity and phase relationships. We are working on enhancing the conversion to accommodate structural variants, but do not yet have a slated date for when that code will be available.
 
-We tested the algorithm against 17 anonymized VCF files obtained from the [1000 Genomes project](https://www.nature.com/articles/nature15393). From each file, we simulated real-time extraction of gene-specific variants using bcftools, creating 3 gene-specific (TPMT, CYP2C19, CYP2D6) VCF files for each of 17 patients, for a total of 51 VCF files. Each of these files was then translated, via the VCF-to-FHIR converter, into a corresponding FHIR Genomics report.
+We tested the algorithm against 17 anonymized VCF files obtained from the [1000 Genomes project](https://www.nature.com/articles/nature15393). From each file, we simulated real-time extraction of gene-specific variants using bcftools, creating 3 gene-specific (TPMT, CYP2C19, CYP2D6) VCF files for each of 17 patients, for a total of 51 VCF files. Each of these files was then translated, via the VCF-to-FHIR converter, into a corresponding FHIR Genomics report. Source VCF files, along with corresponding FHIR Genomics reports (in XML and JSON) can be found in the 'public' folder on this site. 
 
 #### Extract parameters from filename
 
