@@ -34,10 +34,10 @@ Create a FHIR Diagnostic Report containing exactly 1 FHIR region studied profile
 
 -   Diagnostic Report
     - Contained
-          - 1..1 region studied
-          - 0..* described variant
-          - 0..* sequence phase relationship
-    
+       - 1..1 region studied
+       - 0..* described variant
+       - 0..* sequence phase relationship  
+
 
 #### Create 1..1 FHIR region studied profile
 
