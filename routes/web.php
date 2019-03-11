@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('crawler', ['status' => false,'message' => false]);
 });
 
-Route::post('translate', 'Vcftofhir@handleUpload');
+Route::match(['get', 'post'], 'translate',  'Vcftofhir@handleUpload' );

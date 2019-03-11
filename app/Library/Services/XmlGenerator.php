@@ -445,8 +445,10 @@ class XmlGenerator extends Common
 		$entry_node->appendChild($observation_node);
 		
 		$dom->appendChild($bundle);
-		
-		$dom->save($xml_file_name);
+
+		$dom->save("converted/$xml_file_name");
+
+		exec('java -jar xmltojson.jar converted/fhir.xml converted/');
 		
 		return $lookupResult;
 	}

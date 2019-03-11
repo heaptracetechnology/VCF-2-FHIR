@@ -104,11 +104,12 @@
 
                 @if ($status)
                 <div class="links">
-                    <span class="select-file"> fhir.xml has been successfully created </span>
+                    <span class="select-file"> fhir.xml and fhir.json has been successfully created </span>
                 </br>  </br>
-                    <a class="view-xml" target="_blank" href="/fhir.xml">View XML file</a>
-
+                    <a class="view-xml" target="_blank" href="converted/fhir.xml">View XML file</a>
+                    <a class="view-xml" target="_blank" href="converted/fhir.json">View JSON file</a>
                 </div>
+
                 @endif
                 <div class="links">
                      <a class="view-xml" target="_blank" href="https://github.com/openelimu/VCF-2-FHIR/blob/master/README.md">Readme</a>

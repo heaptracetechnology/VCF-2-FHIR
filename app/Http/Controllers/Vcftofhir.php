@@ -58,7 +58,8 @@ class Vcftofhir extends Controller
         
 
         // get raw data from vcf file
-        $rawVcfdata = $filereaderServiceInstance->getVcfRawData($fileName);
+
+        $rawVcfdata = $filereaderServiceInstance->getVcfRawData($file->getRealPath());
 
         // some math for parser
         $arrayLength = sizeof($rawVcfdata);
